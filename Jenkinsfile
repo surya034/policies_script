@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh '''
                 source venv/bin/activate
-                python script.py
+                python main.py
                 '''
             }
         }
